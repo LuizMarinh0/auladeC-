@@ -44,7 +44,7 @@ int main {
  	int ano=2024,idade, nasceu;
 	printf("digite sua idade:");
 	scanf("%d", &idade);
-	nasceu = idade-ano;
+	nasceu = ano-idade;
 	printf("o ano em que ele nasceu foi em: %i", nasceu);
 	return 0;
 
